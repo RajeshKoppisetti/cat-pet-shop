@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mino Retail Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" class="logo" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="account-page.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html"><img width="25" height="25"
+                        src="https://img.icons8.com/ios/50/shopping-cart--v1.png" width="25" height="25" /></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+            </div>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container row">
+            <div class="col-2">
+                <h1>Upgrade your Dressing Style with your own way!</h1>
+                <p>Style is something each of us already has,<br> all we need to do is find it</p>
+                <a href="products.html" class="btn">Explore Now &#8594;</a>
+                <img src="images/image1.png" alt="Hero Banner" />
+            </div>
+        </div>
+    </section>
+    <!--categories-section-->
+    <div class="category">
+        <div class="small-container">
+            <h2 class="title">Categories</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" />
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" />
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---featured categories-->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details1.html"><img src="images/product-1.jpg" /></a>
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>&#x20B9;450.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details2.html"><img src="images/product-2.jpg" /></a>
+                <h4>HRX by Hrithik Roshan Men White Perforated Lightweight Sneakers</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;1,709.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details3.html"><img src="images/product-3.jpg" /></a>
+                <h4>Men's Grey Drop-Crotch Joggers</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;560.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details4.html"><img src="images/product-4.jpg" /></a>
+                <h4>Men's Slim Fit Polo T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>&#x20B9;799.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details5.html"><img src="images/product-5.jpg" /></a>
+                <h4>The HRX Men's Lifestyle Sneakers from the Pro Sneakers Collection</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>&#x20B9;5099.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details6.html"><img src="images/product-6.jpg" /></a>
+                <h4>Puma<br>Men Black Slim Fit Solid Tour Round Neck Pure Cotton T-shirt
+                </h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>&#x20B9;1299.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details7.html"><img src="images/product-7.jpg" /></a>
+                <h4>Ankle-Length Sports/Casual Socks</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;299.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details8.html"> <img src="images/product-8.jpg" /></a>
+                <h4>Fossil The Minimalist 3H Black Dial Men's Watch (Model: FS5308)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>&#x20B9;11,995</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details9.html"><img src="images/product-9.jpg" /></a>
+                <h4>Roadster Men Black Analogue Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;779.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details10.html"><img src="images/product-10.jpg" /></a>
+                <h4> Hrithik Roshan Men Black Red Out Back Outdoor Shoes Running Shoes For Men </h4>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;2,609.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details11.html"><img src="images/product-11.jpg" /></a>
+                <h4> Roadster Men Grey Woven Design Slip-On Sneakers</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#x20B9;1,680.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details12.html"><img src="images/product-12.jpg" /></a>
+                <h4>Nike Sportswear Club Fleece Joggers</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+                <p>&#x20B9;2,495.00</p>
+            </div>
+        </div>
+    </div>
+    <!---offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Mino</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 is a fitness tracker that can track your heart rate, sleep, and activity
+                        levels. It has a color display and can be synced with your smartphone.</small>
+                    <a href="cart.html" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------testimonials------>
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"> </i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <h3>Sean Parker</h3>
+                    <ul><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </ul>
+                    <img src="images/user-1.png">
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <h3>Jane Doe</h3>
+                    <span>Designer</span>
+                    <ul>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </ul>
+                    <img src="images/user-2.png">
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                    <h3>Sam Smith</h3>
+                    <ul>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </ul>
+                    <img src="images/user-3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone</p>
+                    <img src="images/play-store.png" />
+                    <img src="images/app-store.png" />
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/logo.png" /></a>
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 9787 @googleapis</p>
+        </div>
+    </div>
+    <!-----js for toggle menu----->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
